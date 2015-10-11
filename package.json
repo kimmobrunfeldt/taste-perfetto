@@ -1,42 +1,28 @@
 {
-  "name": "perfect-recipes",
-  "version": "1.0.0",
-  "description": "Collection of recipes aiming for perfection",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kimmobrunfeldt/perfect-recipes.git"
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "hexo": {
+    "version": "3.1.1"
   },
-  "keywords": [
-    "recipe",
-    "recipes",
-    "food",
-    "perfect",
-    "drink"
-  ],
-  "author": "Kimmo Brunfeldt",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kimmobrunfeldt/perfect-recipes/issues"
-  },
-  "homepage": "https://github.com/kimmobrunfeldt/perfect-recipes#readme",
-  "devDependencies": {
-    "chokidar-cli": "^1.0.1",
+  "dependencies": {
     "concurrently": "^0.1.1",
-    "handlebars": "^4.0.3",
-    "http-server": "^0.8.5",
-    "metalsmith": "^2.1.0",
-    "metalsmith-collections": "^0.7.0",
-    "metalsmith-drafts": "0.0.1",
-    "metalsmith-in-place": "^1.3.1",
-    "metalsmith-layouts": "^1.4.1",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.4.0"
+    "hexo": "^3.1.0",
+    "hexo-deployer-git": "0.0.4",
+    "hexo-generator-archive": "^0.1.2",
+    "hexo-generator-category": "^0.1.2",
+    "hexo-generator-index": "^0.1.2",
+    "hexo-generator-tag": "^0.1.1",
+    "hexo-renderer-ejs": "^0.1.0",
+    "hexo-renderer-marked": "^0.2.4",
+    "hexo-renderer-stylus": "^0.3.0",
+    "hexo-server": "^0.1.2"
   },
   "scripts": {
-    "start": "concurrent 'npm run serve' 'npm run watch'",
-    "serve": "http-server -c 0 ./build",
-    "watch": "npm run build && chokidar './templates/**/*' '*.js' './src/**/*' -c 'npm run build'",
-    "build": "node index.js"
+    "start": "concurrent 'npm run server' 'npm run watch'",
+    "watch": "hexo generate --watch",
+    "server": "hexo server",
+    "build": "hexo generate",
+    "deploy": "hexo deploy"
   }
 }
