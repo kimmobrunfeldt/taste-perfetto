@@ -42,11 +42,14 @@ Voila. Next, slice the pineapple.
   <source src="new-slice-pineapple.mov" type="video/mp4" />
 </video>
 
-Measure pineapple, coconut water and cream.
+Measure pineapple, sugar, coconut water and cream.
 
 <div style="height: 150px;" class="row row-even">
   <video autoplay loop>
     <source src="new-measure-coconut-water.mov" type="video/mp4" />
+  </video>
+  <video autoplay loop>
+    <source src="new-measure-sugar.mov" type="video/mp4" />
   </video>
   <video autoplay loop>
     <source src="new-measure-coconut-cream.mov" type="video/mp4" />
