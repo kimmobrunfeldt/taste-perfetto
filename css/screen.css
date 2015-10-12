@@ -149,7 +149,8 @@ h6 {
 
 a {
     color: #4a4a4a;
-    transition: color ease 0.3s;
+    -webkit-transition: color ease 0.3s;
+            transition: color ease 0.3s;
 }
 
 a:hover {
@@ -198,7 +199,6 @@ hr {
 }
 
 blockquote {
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
@@ -240,7 +240,6 @@ code, tt {
 }
 
 pre {
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 1.6em 0;
     border: 1px solid #E3EDF3;
@@ -280,7 +279,6 @@ kbd {
 }
 
 table {
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 1.6em 0;
     width:100%;
@@ -419,7 +417,10 @@ margin on the iframe, cause it breaks stuff. */
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
-    hyphens: auto;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -435,8 +436,6 @@ margin on the iframe, cause it breaks stuff. */
     left: 50%;
     margin-left: -5px;
     background: #fff;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
 }
@@ -560,8 +559,6 @@ margin on the iframe, cause it breaks stuff. */
     margin-left: -5px;
     content: '';
     border: #e7eef2 1px solid;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
     border-radius: 100%;
     background: #fff;
     box-shadow: #fff 0 0 0 5px;
@@ -570,28 +567,49 @@ margin on the iframe, cause it breaks stuff. */
 /* Keep large images within the bounds of the post-width */
 .post-content img, .post-content video {
     display: block;
-    max-width: 80%;
+    width: 100%;
     margin: 0 auto;
     height: auto;
 }
 
 .post-content .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 100%;
 }
 
 .post-content .row-even > * {
-  flex: 1;
-  padding: 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5px 10px;
+}
+
+.post-content .row-even > *:first-child {
+  padding-left: 0;
+}
+
+.post-content .row-even > *:last-child {
+  padding-right: 0;
 }
 
 /* The author credit area after the post */
 .post-footer {
     position: relative;
     margin: 4rem 0 0 0;
-    padding: 4rem 0 0 0;
+    padding: 4rem 0 2rem 0;
     border-top: #EBF2F6 1px solid;
 }
 
@@ -852,7 +870,8 @@ pre .chunk {
     border: #EBF2F6 2px solid;
     text-decoration: none;
     border-radius: 30px;
-    transition: border ease 0.3s;
+    -webkit-transition: border ease 0.3s;
+            transition: border ease 0.3s;
 }
 
 .older-posts {
@@ -927,7 +946,8 @@ pre .chunk {
     line-height: 2.4rem;
     border-radius: 50px;
     background: #fff;
-    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+            transition: box-shadow 0.5s;
 }
 
 /* The RSS icon, inserted via icon font */
@@ -938,13 +958,15 @@ pre .chunk {
     top: 9px;
     left: 9px;
     font-weight: bold;
-    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+            transition: color 0.5s ease;
 }
 
 /* Add a box shadow to on hover */
 .subscribe:hover {
     box-shadow: rgba(0,0,0,0.05) 0 0 0 3px;
-    transition: box-shadow 0.25s;
+    -webkit-transition: box-shadow 0.25s;
+            transition: box-shadow 0.25s;
 }
 
 .subscribe:hover:before {
@@ -966,7 +988,8 @@ pre .chunk {
     background: #50585D;
     border-radius:20px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    transition: opacity 0.3s ease, top 0.3s ease;
+    -webkit-transition: opacity 0.3s ease, top 0.3s ease;
+            transition: opacity 0.3s ease, top 0.3s ease;
 }
 
 /* The little chiclet arrow under the tooltip, pointing down */
@@ -1002,8 +1025,6 @@ pre .chunk {
     }
 
     .site-head {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
         min-height: 240px;
