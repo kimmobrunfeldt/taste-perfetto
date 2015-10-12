@@ -82,3 +82,6 @@ deploy:
 
 # Integrations
 disqus_shortname: tasteperfetto
+
+plugins:
+- hexo-generator-cname
