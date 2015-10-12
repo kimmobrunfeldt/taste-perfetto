@@ -3,6 +3,8 @@ title: Piña Colada
 subtitle: Creamy and tasty Pina Colada drink
 cover: cover.jpg
 date: 2015-10-11 17:21:40
+author: Kimmo Brunfeldt
+bio: Food ♥.
 tags:
   - drink
   - rum
@@ -28,7 +30,9 @@ hidden   | hidden
 
 #### Directions
 
-First of all, remember to have ice cubes in the freezer. After everything is set, let's break the coconut. See [this video](https://www.youtube.com/watch?v=oFDePsAqxnI) for instructions.
+First of all, remember to have ice cubes in the freezer. The other ingredients
+should be as cold as possible too.
+After everything is set, let's break the coconut. See [this video](https://www.youtube.com/watch?v=oFDePsAqxnI) for instructions.
 
 {% asset_img coconut-before.jpg &nbsp; %}
 
@@ -38,77 +42,78 @@ After furious hammering, the coconut cracks.
 
 Voila. Next, slice the pineapple.
 
-<video autoplay loop>
+<video loop>
   <source src="new-slice-pineapple.mov" type="video/mp4" />
 </video>
 
 Measure pineapple, sugar, coconut water and cream.
 
 <div style="height: 150px;" class="row row-even">
-  <video autoplay loop>
+  <video loop>
     <source src="new-measure-coconut-water.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-measure-sugar.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-measure-coconut-cream.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-measure-pineapple.mov" type="video/mp4" />
   </video>
 </div>
 
-Blend.
+Blend them together. The result should be smoothie like.
 
 <div style="height: 150px;" class="row row-even">
-  <video autoplay loop>
+  <video loop>
     <source src="new-add-pineapples.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-add-coconut-cream.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-blend.mov" type="video/mp4" />
   </video>
 </div>
 
-Measure alcohol.
+Measure Bacardi and Malibu.
 
 <div style="height: 150px;" class="row row-even">
-  <video autoplay loop>
+  <video loop>
     <source src="new-measure-malibu.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-measure-bacardi.mov" type="video/mp4" />
   </video>
 </div>
 
-Mix all together.
+Mix everything together.
 
 <div style="height: 150px;" class="row row-even">
-  <video autoplay loop>
+  <video loop>
     <source src="new-add-bacardi.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-add-malibu.mov" type="video/mp4" />
   </video>
-  <video autoplay loop>
+  <video loop>
     <source src="new-add-shake.mov" type="video/mp4" />
   </video>
 </div>
 
-Shake.
+Shake well.
 
-<video autoplay loop>
-  <source src="new-shake-all.mov" type="video/mp4" />
+<video loop>
+  <source src="new-shake-all.mp4" type="video/mp4" />
+  ![](output.gif)
 </video>
 
 
-Add ice to the glass and pour the shake to it.
+Add ice cubes into the glass and pour the Pina Colada through a strainer.
 
-<video autoplay loop>
+<video loop>
   <source src="new-pour2.mov" type="video/mp4" />
 </video>
 
-Enjoy.
+Finalize the cocktail with a straw and **enjoy.**
