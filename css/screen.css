@@ -390,7 +390,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 25px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: bold;
@@ -604,6 +604,20 @@ margin on the iframe, cause it breaks stuff. */
 
 .post-content .row-even > *:last-child {
   padding-right: 0;
+}
+
+.site-home-link {
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.site-home-link:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 /* The author credit area after the post */
