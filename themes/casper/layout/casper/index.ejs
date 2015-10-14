@@ -2,23 +2,15 @@
 <main class="content" role="main">
   <% page.posts.each(function(post) { %>
   <article class="post">
-    <header class="post-header">
-      <%- partial('post/meta', {post: post}) %>
-      <h2 class="post-title"><a href="<%- config.root %><%- post.path %>"><%- post.title %></a></h2>
-    </header>
     <section class="post-excerpt">
       <p>
-      <% if (post.excerpt){ %>
-        <%- post.excerpt %>
-      <% } else { %>
-        <%- post.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 220) %>
-      <% } %>
+        <h2 class="post-title">
+          <a href="<%- config.root %><%- post.path %>"><%- post.title %></a>
+        </h2>
+        <a href="<%- config.root %><%- post.path %>">
+          <img class="post-thumbnail" src="<%- post.thumbnail %>" alt="" />
+        </a>
       </p>
-      <% if (theme.excerpt_link) { %>
-      <p>
-          <a href="<%- config.root %><%- post.path %>" class="excerpt-link"><%= theme.excerpt_link %>...</a>
-      </p>
-      <% } %>
     </section>
   </article>
   <% }); %>

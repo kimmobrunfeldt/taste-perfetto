@@ -2,6 +2,7 @@
 title: Piña Colada
 subtitle: Creamy and delicious drink
 cover: cover.jpg
+thumbnail: recipes/Pina-Colada/cover.jpg
 date: 2015-10-11 17:21:40
 author: Kimmo Brunfeldt
 bio: Food ♥.

@@ -451,6 +451,18 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.6em;
 }
 
+.post-title {
+  font-size: 2.8rem;
+}
+
+.post-title a {
+  text-decoration: none;
+}
+
+.post-thumbnail {
+  max-width: 250px;
+}
+
 .post-meta {
     display: inline-block;
     margin: 0 0 4rem 0;
