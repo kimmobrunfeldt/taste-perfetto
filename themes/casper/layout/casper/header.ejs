@@ -1,0 +1,24 @@
+<% if (typeof page.title != 'undefined') { %>
+  <header class="site-head" style="background-image: url(<%- page.cover %>)">
+    <div class="site-head-darken"></div>
+<% } else { %>
+  <header class="site-head" style="background-image: url(<%- theme.cover %>)">
+<% } %>
+
+    <div class="vertical">
+        <div class="site-head-content inner">
+            <% if (typeof page.title != 'undefined') { %>
+
+              <h1 class="blog-title"><%- page.title %></h1>
+              <% if (page.subtitle) { %> <h2 class="blog-description"><%- page.subtitle %></h2> <% } %>
+
+            <% } else { %>
+
+              <% if (theme.logo) { %> <a class="blog-logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="Blog Logo"/></a> <% } %>
+              <h1 class="blog-title"><%- config.title %></h1>
+              <h2 class="blog-description"><%- config.subtitle %></h2>
+
+            <% } %>
+        </div>
+    </div>
+</header>
