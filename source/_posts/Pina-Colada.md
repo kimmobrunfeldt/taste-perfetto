@@ -106,7 +106,6 @@ Shake well.
 
 <video loop>
   <source src="shake-all.mp4" type="video/mp4" />
-  ![](output.gif)
 </video>
 
 
