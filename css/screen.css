@@ -570,6 +570,7 @@ margin on the iframe, cause it breaks stuff. */
     width: 100%;
     margin: 0 auto;
     height: auto;
+    min-width: 50px;
 }
 
 .post-content .row {
