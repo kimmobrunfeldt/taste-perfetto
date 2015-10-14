@@ -1,6 +1,6 @@
 ---
 title: Piña Colada
-subtitle: Creamy and tasty Pina Colada drink
+subtitle: Creamy and delicious drink
 cover: cover.jpg
 date: 2015-10-11 17:21:40
 author: Kimmo Brunfeldt
@@ -110,7 +110,7 @@ Shake well.
 </video>
 
 
-Add ice cubes into the glass and pour the Pina Colada through a strainer.
+Add ice cubes into the glass and pour the Piña Colada through a strainer.
 
 <video loop>
   <source src="pour.mp4" type="video/mp4" />
