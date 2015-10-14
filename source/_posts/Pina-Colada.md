@@ -43,23 +43,23 @@ After furious hammering, the coconut cracks.
 Voila. Next, slice the pineapple.
 
 <video loop>
-  <source src="new-slice-pineapple.mov" type="video/mp4" />
+  <source src="new-slice-pineapple.mp4" type="video/mp4" />
 </video>
 
 Measure pineapple, sugar, coconut water and cream.
 
 <div style="height: 150px;" class="row row-even">
   <video loop>
-    <source src="new-measure-coconut-water.mov" type="video/mp4" />
+    <source src="new-measure-coconut-water.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-measure-sugar.mov" type="video/mp4" />
+    <source src="new-measure-sugar.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-measure-coconut-cream.mov" type="video/mp4" />
+    <source src="new-measure-coconut-cream.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-measure-pineapple.mov" type="video/mp4" />
+    <source src="new-measure-pineapple.mp4" type="video/mp4" />
   </video>
 </div>
 
@@ -67,13 +67,13 @@ Blend them together. The result should be smoothie like.
 
 <div style="height: 150px;" class="row row-even">
   <video loop>
-    <source src="new-add-pineapples.mov" type="video/mp4" />
+    <source src="new-add-pineapples.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-add-coconut-cream.mov" type="video/mp4" />
+    <source src="new-add-coconut-cream.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-blend.mov" type="video/mp4" />
+    <source src="new-blend.mp4" type="video/mp4" />
   </video>
 </div>
 
@@ -81,10 +81,10 @@ Measure Bacardi and Malibu.
 
 <div style="height: 150px;" class="row row-even">
   <video loop>
-    <source src="new-measure-malibu.mov" type="video/mp4" />
+    <source src="new-measure-malibu.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-measure-bacardi.mov" type="video/mp4" />
+    <source src="new-measure-bacardi.mp4" type="video/mp4" />
   </video>
 </div>
 
@@ -92,13 +92,13 @@ Mix everything together.
 
 <div style="height: 150px;" class="row row-even">
   <video loop>
-    <source src="new-add-bacardi.mov" type="video/mp4" />
+    <source src="new-add-bacardi.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-add-malibu.mov" type="video/mp4" />
+    <source src="new-add-malibu.mp4" type="video/mp4" />
   </video>
   <video loop>
-    <source src="new-add-shake.mov" type="video/mp4" />
+    <source src="new-add-shake.mp4" type="video/mp4" />
   </video>
 </div>
 
@@ -113,7 +113,7 @@ Shake well.
 Add ice cubes into the glass and pour the Pina Colada through a strainer.
 
 <video loop>
-  <source src="new-pour2.mov" type="video/mp4" />
+  <source src="new-pour2.mp4" type="video/mp4" />
 </video>
 
-Finalize the cocktail with a straw and **enjoy.**
+Finalize the cocktail with a straw. **Enjoy.**
